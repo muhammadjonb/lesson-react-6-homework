@@ -1,0 +1,40 @@
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a,
+span {
+  transition: all 0.4s ease-in-out;
+}
+
+a.active span {
+  color: crimson;
+}
+.home_main{
+  width: 100%;
+}
+.flex_content{
+  display: flex;
+  align-items: flex-start;
+}
+.slider{
+  width: 260px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.slider *{
+  font-size: 20px;
+  color: #333;
+}
+.slider a.active{
+  color: royalblue;
+}
+.slider_link{
+  border-bottom: 1px solid #3333337b;
+  width: 100%;
+  padding: 8px 0;
+}
